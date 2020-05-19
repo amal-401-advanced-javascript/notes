@@ -1,17 +1,9 @@
-.env
-**/node_modules/*
-**/*.min.js
-**/vendor/*
-**/coverage/*
-**/build/*
-**/docs/*
-node_modules
-# 401 JS
+
 db
 .env
 temp
 build
-
+node_modules
 # Created by https://www.gitignore.io/api/vim,osx,node,linux,windows
 ### Linux ###
 *~
