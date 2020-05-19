@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/amal-401-advanced-javascript/notes#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "is-url": "^1.2.4",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "mongoose": "^5.9.15"
   },
   "devDependencies": {
     "eslint": "^7.0.0"
