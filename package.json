@@ -4,7 +4,9 @@
   "description": "# LAB - Class 01",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose --coverage",
+    "test-watch": "--watchAll"
+
   },
   "repository": {
     "type": "git",
