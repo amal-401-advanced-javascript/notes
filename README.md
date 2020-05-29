@@ -9,27 +9,30 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/amal-401-advanced-javascript/notes/pull/1)
-- [ci/cd](http://xyz.com) (GitHub Actions)
-- [back-end server url](http://xyz.com) (when applicable)
+- [submission PR](https://github.com/amal-401-advanced-javascript/notes/pull/6)
+- [ci/GitHub Actions](https://github.com/amal-401-advanced-javascript/notes/runs/720567821?check_suite_focus=true)
+
 
 
 ### Setup
 
-#### `.env` requirements (where applicable)
-
-i.e.
-
-- `PORT` - Port Number
-- `MONGODB_URI` - URL to the running mongo instance/db
+#### `.env` requirements 
+- `MONGODB_URI` -
 
 #### How to initialize/run your application (where applicable)
 
-- `node index.js --a 'add a note here'` or `node index.js --add 'add a note here'`
-
+- * node index.js (--add with a note and --category for the category) || (--a/-a)
+- * node index.js --list to show all the notes or you can do -- list with a category 
+- * node index.js --delete with an id to delete a note 
 #### How to use your library (where applicable)
+ 
+- npm i minimist => minimist
+- npm i dotenv => dotenv
+- npm i monogoose => npm i monogoose
 
 #### Tests
+- npm i -D jest => jest 
+- npm install -D lint => lint
 
 - How do you run tests?
 - Any tests of note?
@@ -37,4 +40,4 @@ i.e.
 
 #### UML
 
-- 
+- ![](note-UML.jpg)

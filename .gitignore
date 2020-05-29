@@ -1,9 +1,9 @@
-
+# 401 JS
 db
 .env
 temp
 build
-node_modules
+
 # Created by https://www.gitignore.io/api/vim,osx,node,linux,windows
 ### Linux ###
 *~
@@ -78,7 +78,6 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
 
 
 ### OSX ###
@@ -142,4 +141,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/vim,osx,node,linux,windows 
+# End of https://www.gitignore.io/api/vim,osx,node,linux,windows
