@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose --coverage",
-    "test-watch": "--watchAll"
-
+    "test-watch": "--watchAll",
+    "lint": "eslint '**/*.js'",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,13 +22,14 @@
   "homepage": "https://github.com/amal-401-advanced-javascript/notes#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "is-url": "^1.2.4",
     "minimist": "^1.2.5",
-    "mongoose": "^5.9.15"
+    "mongoose": "^5.9.16"
   },
   "devDependencies": {
+    "@code-fellows/supergoose": "^1.0.2",
     "eslint": "^7.0.0",
-    "jest": "^26.0.1"
+    "jest": "^26.0.1",
+    "lint": "^0.7.0"
   },
   "directories": {
     "lib": "lib"
