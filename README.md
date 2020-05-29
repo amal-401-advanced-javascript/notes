@@ -12,8 +12,6 @@
 - [submission PR](https://github.com/amal-401-advanced-javascript/notes/pull/6)
 - [ci/GitHub Actions](https://github.com/amal-401-advanced-javascript/notes/runs/720567821?check_suite_focus=true)
 
-
-
 ### Setup
 
 #### `.env` requirements 
